@@ -9,7 +9,7 @@ apt install xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-video-intel 
 apt install fonts-linuxlibertine fonts-liberation fonts-liberation2 -y
 
 # Terminal Programs
-apt install doas neovim calcurse flatpak pulseaudio pulsemixer xwallpaper -y
+apt install doas neovim calcurse flatpak pulseaudio pulsemixer xwallpaper unzip zip unrar-free -y
 
 # C Development
 apt install make clang libx11-dev libxft-dev libxinerama-dev git -y
