@@ -25,8 +25,9 @@ flatpak install io.freetubeapp.FreeTube
 
 # Final Procedures
 xdg-user-dirs-update
-git clone "https://github.com/dev-elian-aav/Suckless" "$HOME/Public/Suckless"
-git clone "https://github.com/dev-elian-aav/Post-Install" "$HOME/Public/Post-Install"
+git clone "https://github.com/dev-elian-aav/Suckless" "$hdir/Public/Suckless"
+git clone "https://github.com/dev-elian-aav/Post-Install" "$hdir/Public/Post-Install"
+git clone "https://github.com/dev-elian-aav/C---Kernighan-and-Ritchie" "$hdir/Public/C - Kernighan and Ritchie"
 
 # Etc files
 wget "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts" $HOME/Downloads/hosts
