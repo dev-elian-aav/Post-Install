@@ -1,0 +1,6 @@
+#!/bin/sh
+
+setxkbmap -layout latam -model pc105 &
+xset b off r rate 300 50 -dpms s off &
+xwallpaper --maximize $HOME/Pictures/wallpaper.jpg &
+exec dbus-run-session -- dwm

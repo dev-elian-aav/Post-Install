@@ -1,0 +1,2 @@
+source $HOME/.bashrc
+PATH="$PATH:$HOME/bin:$HOME/.local/bin:/sbin"
